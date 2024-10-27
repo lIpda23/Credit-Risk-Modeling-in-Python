@@ -11,20 +11,20 @@ Missing values were addressed through imputation based on feature correlations, 
 
 Project Structure
 ├── data
-│    ├── loan_data_2007_2014.csv          # Main CSV file with raw data
-│    ├── loan_data_2007_2014_preprocessed.csv  # Data file after preprocessing
-│    ├── df_scorecard.csv                 # Contains coefficients for the scorecard
+│    ├── loan_data_2007_2014.csv                  # Main CSV file with raw data
+│    ├── loan_data_2007_2014_preprocessed.csv     # Data file after preprocessing
+│    ├── df_scorecard.csv                         # Contains coefficients for the scorecard
 ├── Models
 │    ├── PD Model
-│    │   ├── pd_model.sav                 # Saved model for Probability of Default
+│    │   ├── pd_model.sav                         # Saved model for Probability of Default
 │    ├── LGD
-│    │   ├── lgd_model_stage_1.sav        # Stage 1 model for Loss Given Default
-│    │   ├── lgd_model_stage_2.sav        # Stage 2 model for Loss Given Default
+│    │   ├── lgd_model_stage_1.sav                # Stage 1 model for Loss Given Default
+│    │   ├── lgd_model_stage_2.sav                # Stage 2 model for Loss Given Default
 ├── Notebooks
-│    ├── Step_1) Credit Risk Modeling_General Preprocessing.ipynb                # Exploratory Data Analysis and general preprocessing
-│    ├── Step_2) PD model Data Preparation.ipynb     # Data preparation specifically for PD model
-│    ├── Step_3) PD model Estimation.ipynb  # PD model estimation and tuning
-│    ├── Step_4) Credit Risk Modeling and Scorecard Development for Probability of Default (PD)  # PD model training and scorecard creation
+│    ├── Step_1) Credit Risk Modeling_General Preprocessing.ipynb       # Exploratory Data Analysis and general preprocessing
+│    ├── Step_2) PD model Data Preparation.ipynb                        # Data preparation specifically for PD model
+│    ├── Step_3) PD model Estimation.ipynb                              # PD model estimation and tuning
+│    ├── Step_4) Credit Risk Modeling and Scorecard Development for Probability of Default (PD).ipynb  # PD model training and scorecard creation
 │    ├── Step_5) Credit Risk Model Monitoring and Population Stability Index (PSI) Analysis for Loan Data.ipynb  # Model monitoring and stability analysis using PSI
 │    ├── Step_6) Expected Loss Estimation and Credit Risk Analysis Using PD, LGD, and EAD Modeling for Consumer Loan Portfolio.ipynb # Modeling LGD and EAD, followed by expected loss calculation based on PD, LGD, and EAD values
 
